@@ -19,7 +19,6 @@ t-SNE is used for further visualization and exploration of the data.
 K-Means clustering is applied to group similar EEG signals together, helping to better understand the patterns in the data before classification.
 
 5. Classification:
-
 Multiple machine learning classifiers are used to classify the EEG data:
 XGBoost
 K-Nearest Neighbors (K-NN)
