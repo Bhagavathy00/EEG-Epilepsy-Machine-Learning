@@ -1,7 +1,9 @@
-EEG-Based Seizure Detection Using Machine Learning
+***EEG-Based Seizure Detection Using Machine Learning:***
+
 This project implements a machine learning pipeline for detecting epileptic seizures from EEG signals. The goal is to develop a system that can classify EEG signals into seizure or non-seizure events with high accuracy. The system uses the AD8232 sensor for EEG signal acquisition, followed by various data preprocessing, feature extraction, dimensionality reduction, clustering, and classification techniques.
 
-Key Components:
+**Key Components:**
+
 1. Dataset Preprocessing:
 The EEG data is cleaned and normalized to remove noise and artifacts.
 
@@ -15,10 +17,12 @@ Principal Component Analysis (PCA) is used to reduce the dimensionality of the e
 
 t-SNE is used for further visualization and exploration of the data.
 
-4. Clustering:
+**4. Clustering:**
+
 K-Means clustering is applied to group similar EEG signals together, helping to better understand the patterns in the data before classification.
 
-5. Classification:
+**5. Classification:**
+
 Multiple machine learning classifiers are used to classify the EEG data:
 
 XGBoost
